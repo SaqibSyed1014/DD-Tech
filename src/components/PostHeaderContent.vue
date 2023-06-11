@@ -8,9 +8,11 @@ import SectionIndicator from './SectionIndicator.vue'
       <div class='left-content'>
         <h1 class='styled-heading mb-6 sm:mb-10'>DDtech is an Instigator <br> <span style='background: #80FF60;'>for Change</span></h1>
         <p class='mb-5'>DDtech champion your ideas not with applause, but with a scalable and comprehensive business strategy.</p>
-        <button type='button'>
-          See what our clients say
-        </button>
+        <div class='text-center lg:text-start'>
+          <button type='button'>
+            See what our clients say
+          </button>
+        </div>
       </div>
       <div class='right-column pt-10 lg:pt-0'>
         <div class='header-container'>
