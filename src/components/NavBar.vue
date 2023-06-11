@@ -1,13 +1,13 @@
 <template>
-  <div class='container mx-auto'>
-    <nav class='border-gray-200'>
+  <div class='container mx-auto pt-3'>
+    <nav>
       <div class='max-w-screen-xl flex pt-6 relative lg:px-10 lg:py-5 z-[11] flex-wrap items-center justify-between mx-auto p-4'>
         <a class='flex items-center'>
           <img src='../assets/imgs/logo.png' class='h-8 mr-3' alt='logo' />
         </a>
         <div class='hidden lg:flex lg:order-2'>
           <button class='md-btn uppercase' type='button'>
-            Book a meeting {{ screenWidth }} {{ screenWidth > 540 }}
+            Book a meeting
           </button>
         </div>
           <button @click='showMenu = !showMenu'
@@ -34,21 +34,20 @@
       </div>
 
       <Teleport to='body'>
-        <div v-if='showMenu' class='mobile-menu'>
+        <div v-if='showMenu' class='mobile-menu bg-primary'>
           <div class='flex justify-end pt-5'>
-            <svg width='40' fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <svg @click='showMenu = false' width='40' fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
             </svg>
           </div>
           <div class='menu-links'>
             <ul class='flex flex-col font-medium px-4'>
-              <li v-for='link in menuLinks' :key='link' class='pb-5 text-3xl'><a href=''>{{ link }}</a></li>
+              <li v-for='link in menuLinks' :key='link' class='pb-5 text-2xl'><a href=''>{{ link }}</a></li>
             </ul>
           </div>
         </div>
       </Teleport>
 
-      <img class='header-bg-curve w-6/12 sm:w-5/12 md:w-6/12' src='../assets/svgs/header_yellow_bg.svg' alt='yellow-bg'>
     </nav>
   </div>
 </template>
@@ -70,7 +69,6 @@ window.addEventListener('resize', () => {
 
 <style scoped>
 .mobile-menu{
-  background-color: #073d30;
   height: 100%;
   left: 0;
   min-height: 100vh;

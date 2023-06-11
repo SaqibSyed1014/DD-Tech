@@ -19,5 +19,6 @@ import ServicesSection from '../components/ServicesSection.vue'
       <GlobalReachSection />
       <ServicesSection />
     </main>
+    <img class='header-bg-curve z-1 w-6/12 sm:w-5/12 md:w-6/12' src='../assets/svgs/header_yellow_bg.svg' alt='yellow-bg'>
   </div>
 </template>

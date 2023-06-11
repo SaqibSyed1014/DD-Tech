@@ -1,8 +1,12 @@
+<script setup>
+import SectionIndicator from './SectionIndicator.vue'
+</script>
+
 <template>
-  <section class='container mx-auto relative z-[111] px-5 sm:px-10 lg:px-20 py-10'>
+  <section class='container mx-auto relative z-[111] px-3 sm:px-10 lg:px-20 py-10'>
     <div class='grid grid-cols-1 lg:grid-cols-2 gap-16 z-[111] relative'>
       <div class='left-content'>
-        <h1 class='styled-heading mb-10'>DDtech is an Instigator <br> <span style='background: #80FF60;'>for Change</span></h1>
+        <h1 class='styled-heading mb-6 sm:mb-10'>DDtech is an Instigator <br> <span style='background: #80FF60;'>for Change</span></h1>
         <p class='mb-5'>DDtech champion your ideas not with applause, but with a scalable and comprehensive business strategy.</p>
         <button type='button'>
           See what our clients say
@@ -21,6 +25,8 @@
     <div class='absolute top-10 right-20 z-[1]'>
       <img src='../assets/imgs/curve_vector_illustration.png' alt='illustration'>
     </div>
+
+    <SectionIndicator :index='2' section-name='Instigator' />
   </section>
 </template>
 

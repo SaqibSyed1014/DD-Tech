@@ -1,8 +1,12 @@
+<script setup>
+import SectionIndicator from './SectionIndicator.vue'
+</script>
+
 <template>
-  <section class='container mx-auto relative px-5 sm:px-10 lg:px-20'>
+  <section class='container mx-auto relative px-3 sm:px-10 lg:px-20'>
     <img class='bg-curve' src='../assets/imgs/curve_vector_illustration.png' alt='Bg Curve'>
     <div>
-      <h1 class='styled-heading text-center mb-40'>DDtech is <span style='background: #92AAFF;'>Consistent</span></h1>
+      <h1 class='styled-heading text-center mb-28 sm:mb-40'>DDtech is <span style='background: #92AAFF;'>Consistent</span></h1>
       <div class='grid grid-cols-1 lg:grid-cols-2 gap-20 h-full relative'>
         <div class='flex items-end justify-end relative'>
           <div class='z-[11]'><img src='../assets/illustrations/rocket.png' alt='Rocket'></div>
@@ -22,6 +26,8 @@
         </div>
       </div>
     </div>
+
+    <SectionIndicator :index='4' section-name='Consistent' />
   </section>
 </template>
 

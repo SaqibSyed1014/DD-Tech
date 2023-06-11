@@ -30,6 +30,10 @@
   font-weight: normal;
   font-family: 'Gilroy';
   color: var(--color-text);
+  padding: 60px 30px 0;
+  @media (max-width: 640px) {
+    padding: 0;
+  }
 }
 
 
@@ -39,7 +43,10 @@
   border-radius: 50px 0 0 0;
   background-color: #FFFFFF;
   position: relative;
-  padding: 60px 30px 0;
+  overflow: hidden;
+  @media (max-width: 640px) {
+    border-radius: 0;
+  }
   .header-bg-curve{
     position: absolute;
     top: 0;
@@ -61,7 +68,7 @@ nav{
         &.active {
           font-weight: 800;
           padding-bottom: 5px;
-          border-bottom: 4px solid #5575E8;
+          border-bottom: 4px solid var(--color-primary);
         }
       }
     }
@@ -69,14 +76,17 @@ nav{
 }
 
 button[type='button']{
-  background-color: var(--color-bg-btn);
+  background-color: var(--color-primary);
   box-shadow: var(--shadow-btn);
   border-radius: var(--radius-btn);
   font-weight: 700;
   font-size: 14px;
   color: var(--color-btn);
   padding: var(--padding-lg-btn);
-  &.md-btn{ padding: var(--padding-md-btn) }
+  &.md-btn{ padding: var(--padding-md-btn); }
+  @media (max-width: 640px) {
+    padding: var(--padding-md-btn);
+  }
 }
 
 .styled-heading{
@@ -93,12 +103,9 @@ button[type='button']{
   }
 }
 
-header{
-  .left-content{
-
-  }
-}
-
 section{
   margin-top: var(--section-gap);
+  @media (max-width: 640px) {
+    margin-top: var(--section-sm-gap);
+  }
 }
