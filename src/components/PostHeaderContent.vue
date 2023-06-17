@@ -3,7 +3,7 @@ import SectionIndicator from './SectionIndicator.vue'
 </script>
 
 <template>
-  <section class='container mx-auto relative z-[111] px-3 sm:px-10 lg:px-20 py-10'>
+  <section class='relative z-[111] px-3 sm:px-10 lg:px-20 py-10'>
     <div class='grid grid-cols-1 lg:grid-cols-2 gap-16 z-[111] relative'>
       <div class='left-content'>
         <h1 class='styled-heading mb-6 sm:mb-10'>DDtech is an Instigator <br> <span style='background: #80FF60;'>for Change</span></h1>

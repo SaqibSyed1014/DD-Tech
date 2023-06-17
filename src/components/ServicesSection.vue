@@ -3,7 +3,7 @@ import SectionIndicator from './SectionIndicator.vue'
 </script>
 
 <template>
-    <section class='container mx-auto relative py-20 px-5 sm:px-10 lg:px-20'>
+    <section class='relative py-20 px-5 sm:px-10 lg:px-20'>
     <div>
       <h1 class='styled-heading text-center mb-12 lg:mb-24'>Let's Work <span style='background: #24B47E;'>Together</span></h1>
       <div class='grid grid-cols-1 lg:grid-cols-2 gap-10 h-full relative'>

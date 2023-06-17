@@ -1,7 +1,7 @@
 <template>
-  <div class='container mx-auto pt-3'>
+  <div class='relative pt-3 px-5'>
     <nav>
-      <div class='max-w-screen-xl flex pt-6 relative lg:px-10 lg:py-5 z-[11] flex-wrap items-center justify-between mx-auto p-4'>
+      <div class='flex pt-6 relative lg:px-10 lg:py-5 z-[11] flex-wrap items-center justify-between mx-auto p-4'>
         <a class='flex items-center'>
           <img src='../assets/imgs/logo.png' class='h-8 mr-3' alt='logo' />
         </a>
@@ -49,6 +49,7 @@
       </Teleport>
 
     </nav>
+    <img class='header-bg-curve z-1 w-6/12 sm:w-5/12 md:w-6/12' src='../assets/svgs/header_yellow_bg.svg' alt='yellow-bg'>
   </div>
 </template>
 

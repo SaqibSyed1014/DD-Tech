@@ -1,5 +1,5 @@
 <template>
-  <header class='container mx-auto relative z-[11] px-3 sm:px-10 lg:px-20 py-10 relative'>
+  <header class='relative z-[11] px-3 sm:px-10 lg:px-20 py-10 relative'>
       <div class='grid grid-cols-1 lg:grid-cols-2 gap-10'>
         <div class='left-content'>
           <h1 class='styled-heading mb-6 sm:mb-10'>We Make Ideas, <br> <span style='background: #FBDA63;'>Known!</span></h1>

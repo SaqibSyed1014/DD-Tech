@@ -3,7 +3,7 @@ import SectionIndicator from './SectionIndicator.vue'
 </script>
 
 <template>
-  <section class='container mx-auto relative px-3 sm:px-10 lg:px-20'>
+  <section class='container mx-auto relative px-3 sm:px-10 lg:px-20 mb-[130px]'>
     <img class='bg-curve' src='../assets/imgs/curve_vector_illustration.png' alt='Bg Curve'>
     <div>
       <h1 class='styled-heading text-center mb-28 sm:mb-40'>DDtech is <span style='background: #92AAFF;'>Consistent</span></h1>
@@ -43,7 +43,7 @@ import SectionIndicator from './SectionIndicator.vue'
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  @media (max-width: 640px) {
+  @media (max-width: 1280px) {
     width: 450px;
     height: 450px;
   }
