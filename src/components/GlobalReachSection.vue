@@ -1,5 +1,5 @@
 <script setup>
-import SectionIndicator from './SectionIndicator.vue'
+import SectionIndicator from './global/SectionIndicator.vue'
 </script>
 
 <template>

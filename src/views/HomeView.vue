@@ -1,5 +1,5 @@
 <script setup>
-import NavBar from '../components/NavBar.vue'
+import NavBar from '../components/global/NavBar.vue'
 import HeaderContent from '../components/HeaderContent.vue'
 import PostHeaderContent from '../components/PostHeaderContent.vue'
 import PartnerSection from '../components/PartnerSection.vue'
@@ -10,7 +10,7 @@ import ServicesSection from '../components/ServicesSection.vue'
 
 <template>
   <div class='site-frame container mx-auto'>
-    <NavBar />
+    <NavBar :show-b-g-curve='true' />
     <HeaderContent />
     <main>
       <PostHeaderContent />
@@ -21,3 +21,9 @@ import ServicesSection from '../components/ServicesSection.vue'
     </main>
   </div>
 </template>
+
+<style scoped>
+.site-frame{
+  border-top-right-radius: 0;
+}
+</style>

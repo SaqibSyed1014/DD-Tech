@@ -1,6 +1,10 @@
+<script setup>
+import NavBar from '../components/global/NavBar.vue'
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class='site-frame container mx-auto'>
+    <NavBar />
   </div>
 </template>
 
