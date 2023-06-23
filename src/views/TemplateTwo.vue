@@ -2,6 +2,9 @@
 import NavBar from '../components/global/NavBar.vue'
 import HeaderPart from '../components/templates/HeaderPart.vue'
 import ImageWithCircle from '../components/global/ImageWithCircle.vue'
+import Banner from '../components/templates/Banner.vue'
+import Footer from '../components/templates/Footer.vue'
+import FAQS from '../components/templates/FAQs.vue'
 
 const services = [
   { text: 'Music Application Development', image: 'src/assets/imgs/glossy.png', alt: 'Speaker' },
@@ -21,7 +24,7 @@ const services = [
     <NavBar />
     <HeaderPart circle-color='rgba(56, 52, 245, 0.18)' image-path='src/assets/imgs/dashboard.png' alt='Dashboard' />
 
-    <section class='sm:px-10 lg:px-28 py-10 text-center'>
+    <section class='px-3 sm:px-10 lg:px-28 py-10 text-center'>
       <h2 class='template-heading mb-5'>Technologies Development with ConvrtX</h2>
       <p>ConvrtX’sservices are assorted with a wide variety of offerings which include the likes of app development, website development, AR, and VR. Do you know why the essence of this development sector stands out? It’smainly due to our team’sdrive for excellence aboveall. There is no popular sector of this technological industry that has not been explored by us. Our standardized approach to innovation can help take yourtechnological venture to another level.</p>
       <div class='relative py-16'>
@@ -31,7 +34,7 @@ const services = [
       <button type='button' class='uppercase mt-16'>BOOK A MEETING</button>
     </section>
 
-    <section class='sm:px-10 lg:px-20 pb-10'>
+    <section class='px-3 sm:px-10 lg:px-20 pb-10'>
       <h2 class='template-heading text-center mb-5'>Why Should You Choose to Partner with ConvrtX?</h2>
       <div class='grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-0 pt-10'>
         <p>We work towards establishing a well-defined amalgamation of our resources with your ideas. You will not only be able to rely on us to be proficient with our efforts but will also have a sense of confidence in our abilities. The services we provide are well aligned for each technological sector of your offering. Our teamwill help gather your confidence when it comes to their services which in turn will give you peace of mind with knowingyour project is in good hands.</p>
@@ -41,7 +44,7 @@ const services = [
       </div>
     </section>
 
-    <section class='sm:px-10 lg:px-20 pb-10'>
+    <section class='px-3 sm:px-10 lg:px-20 pb-10'>
       <h2 class='template-heading text-center mb-5'>Why Should You Choose to Partner with ConvrtX?</h2>
       <div class='grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-0 pt-10'>
         <div class='content'>
@@ -74,7 +77,7 @@ const services = [
       </div>
     </section>
 
-    <section class='sm:px-10 lg:px-20 pb-10'>
+    <section class='px-3 sm:px-10 lg:px-20 pb-10'>
       <h2 class='template-heading text-center mb-5'>Our Technological Development Experts</h2>
       <div class='grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-0 pt-10'>
         <div>
@@ -91,7 +94,7 @@ const services = [
       </div>
     </section>
 
-    <section class='sm:px-10 lg:px-20 pb-10'>
+    <section class='px-5 sm:px-10 lg:px-20 pb-10'>
       <h2 class='template-heading text-center mb-5'>iPhone App Development Services For Any Device and Purpose </h2>
       <div class='grid grid-rows-9 grid-cols-1 sm:grid-rows-5 sm:grid-cols-2 lg:grid-rows-3 lg:grid-cols-3 gap-16 lg:gap-20 pt-10'>
         <div v-for='(service, i) in services' :key='i' class='services-badge'>
@@ -101,6 +104,12 @@ const services = [
       </div>
       <p class='text-center pt-16'>We are your best shot at creating and developing your ideal app. You can reach new heights of achievement with our flawless and dynamic iPhone App Development practices all around the world.</p>
     </section>
+
+    <FAQS />
+
+    <Banner />
+
+    <Footer />
 
   </div>
 </template>
