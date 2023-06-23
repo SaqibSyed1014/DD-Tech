@@ -10,6 +10,11 @@
   src: url('./fonts/Gilroy-Medium.ttf') format('truetype');
 }
 @font-face {
+  font-family: 'Gilroy-Light';
+  font-style: normal;
+  src: url('./fonts/Gilroy-Light.otf') format('truetype');
+}
+@font-face {
   font-family: 'Gilroy-Bold';
   font-style: normal;
   src: url('./fonts/Gilroy-ExtraBold.otf') format('truetype');
@@ -28,7 +33,7 @@
 .site-body {
   height: 100%;
   font-weight: normal;
-  font-family: 'Gilroy';
+  font-family: 'Gilroy-Light';
   color: var(--color-text);
   padding: 60px 30px 0;
   @media (max-width: 640px) {
@@ -52,6 +57,13 @@
     top: 0;
     right: 0;
     z-index: 1;
+  }
+  &.template{
+   font-family: 'Gilroy-Light';
+    h1,h2, h3, h4, h5, h6{ font-family: 'Samsung-Sharp-Light' }
+    p {
+      font-size: 19px;
+    }
   }
 }
 
@@ -108,4 +120,10 @@ section{
   @media (max-width: 640px) {
     margin-top: var(--section-sm-gap);
   }
+}
+
+//Templates CSS
+.template-heading{
+  color: #0C0906;
+  font-size: 2.5rem;
 }

@@ -4,7 +4,7 @@ import SectionIndicator from './global/SectionIndicator.vue'
 
 <template>
   <section class='container mx-auto relative px-3 sm:px-10 lg:px-20 mb-[130px]'>
-    <img class='bg-curve' src='../assets/imgs/curve_vector_illustration.png' alt='Bg Curve'>
+    <img class='bg-curve' src='../assets/illustrations/curves_illustration.png' alt='Bg Curve'>
     <div>
       <h1 class='styled-heading text-center mb-28 sm:mb-40'>DDtech is <span style='background: #92AAFF;'>Consistent</span></h1>
       <div class='grid grid-cols-1 lg:grid-cols-2 gap-20 h-full relative'>

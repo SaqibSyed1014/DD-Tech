@@ -25,7 +25,7 @@ import SectionIndicator from './global/SectionIndicator.vue'
     <img class='yellow-ball' src='../assets/illustrations/yellow_ball.png' alt='Yellow'>
     <img class='blue-ball' src='../assets/illustrations/blue_ball.png' alt='Blue'>
     <div class='absolute top-10 right-20 z-[1]'>
-      <img src='../assets/imgs/curve_vector_illustration.png' alt='illustration'>
+      <img src='../assets/illustrations/curves_illustration.png' alt='illustration'>
     </div>
 
     <SectionIndicator :index='2' section-name='Instigator' />
