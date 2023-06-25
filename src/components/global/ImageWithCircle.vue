@@ -27,6 +27,10 @@ const props = defineProps({
   border-radius: 50%;
   display: flex;
   align-items: center;
+  @media (max-width: 640px) {
+    width: 300px;
+    height: 300px;
+  }
 }
 </style>
 

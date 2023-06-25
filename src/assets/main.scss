@@ -58,13 +58,6 @@
     right: 0;
     z-index: 1;
   }
-  &.template{
-   font-family: 'Gilroy-Light';
-    h1,h2, h3, h4, h5, h6{ font-family: 'Samsung-Sharp-Light' }
-    p {
-      font-size: 19px;
-    }
-  }
 }
 
 nav{
@@ -123,10 +116,64 @@ section{
 }
 
 //Templates CSS
-.template-heading{
-  color: #0C0906;
-  font-size: 2.5rem;
+.template{
+  font-family: 'Gilroy-Light';
+  h1,h2, h3, h4, h5, h6, .template-heading{
+    font-family: 'Samsung-Sharp-Light';
+    color: #0C0906;
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.18rem;
+  }
+  ul{
+    position: relative;
+    li::before{
+      content: '';
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      position: absolute;
+      transform: translate(-20px, 8px);
+    }
+    li:nth-child(3n+1)::before{
+      background: #E7AE51;
+    }
+    li:nth-child(3n+2)::before{
+      background: #C37EB0;
+    }
+    li:nth-child(3n+3)::before{
+      background: #59A49D;
+    }
+  }
+  footer, nav{
+    ul li{ &::before{ background: transparent !important; } }
+  }
 }
+
+@media (max-width: 640px) {
+  .template{
+    h1,h2, h3, h4, h5, h6, .template-heading{
+      font-size: 1.7rem;
+    }
+    p {
+      font-size: .9rem;
+    }
+    section{
+      margin-top: calc(var(--section-sm-gap) - 40px);
+    }
+    ul {
+      position: relative;
+
+      li::before {
+        width: 8px;
+        height: 8px;
+        transform: translate(-10px, 8px);
+      }
+    }
+  }
+}
+
 label{
   color: #27272E;
   font-size: 14px;
@@ -142,7 +189,7 @@ input, textarea{
   display: block;
   &:focus{
     outline: none;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
   }
   &::placeholder{
     color: #999FAE;

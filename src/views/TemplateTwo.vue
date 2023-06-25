@@ -23,7 +23,12 @@ const services = [
 <template>
   <div class='site-frame template template-two container mx-auto'>
     <NavBar />
-    <HeaderPart circle-color='rgba(56, 52, 245, 0.18)' image-path='src/assets/imgs/dashboard.png' alt='Dashboard' />
+    <HeaderPart
+      heading='BUILDING INNOVATIVE TECHNOLOGIES WITH CONVRTX'
+      circle-color='rgba(56, 52, 245, 0.18)'
+      image-path='src/assets/imgs/dashboard.png'
+      alt='Dashboard'
+    />
 
     <section class='px-3 sm:px-10 lg:px-28 py-10 text-center'>
       <h2 class='template-heading mb-5'>Technologies Development with ConvrtX</h2>
@@ -126,7 +131,7 @@ const services = [
   display: flex;
   align-items: center;
   gap: 1rem;
-  border: 1px solid red;
+  box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
   position: relative;
   div{ margin-left: -1rem; }
   img{
