@@ -1,7 +1,7 @@
 <template>
-  <div class='relative pt-3 px-5'>
+  <div class='relative pt-3 px-3 lg:px-5'>
     <nav>
-      <div class='flex pt-6 relative lg:px-10 lg:py-5 z-[11] flex-wrap items-center justify-between mx-auto p-4'>
+      <div class='flex pt-6 relative px-0 lg:px-10 lg:py-5 z-[11] flex-wrap items-center justify-between mx-auto'>
         <a class='flex items-center'>
           <img src='../../assets/imgs/logo.png' class='h-8 mr-3' alt='logo' />
         </a>
