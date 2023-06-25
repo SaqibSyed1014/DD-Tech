@@ -8,15 +8,15 @@ import FAQS from '../components/templates/FAQs.vue'
 import ContactForm from '../components/templates/ContactForm.vue'
 
 const services = [
-  { text: 'Music Application Development', image: 'src/assets/imgs/glossy.png', alt: 'Speaker' },
-  { text: 'iPad App Development', image: 'src/assets/imgs/board.png', alt: 'Board' },
-  { text: 'Apple Tv App Development', image: 'src/assets/imgs/shape.png', alt: 'Shape' },
-  { text: 'iPhone App Development', image: 'src/assets/imgs/block.png', alt: 'Block' },
-  { text: 'iWatch App Development', image: 'src/assets/imgs/wallet.png', alt: 'Wallet' },
-  { text: 'Video/Audio iOS App', image: 'src/assets/imgs/play_block.png', alt: 'Play' },
-  { text: 'Automobile Application ', image: 'src/assets/imgs/colored_ball.png', alt: 'Ball' },
-  { text: 'Real-time e-Commerce Application Development', image: 'src/assets/imgs/curved_board.png', alt: 'Curving' },
-  { text: 'Travel & Hospitality Application Development', image: 'src/assets/imgs/rocket.png', alt: 'Rocket' },
+  { text: 'Music Application Development', image: 'imgs/glossy.png', alt: 'Speaker' },
+  { text: 'iPad App Development', image: 'imgs/board.png', alt: 'Board' },
+  { text: 'Apple Tv App Development', image: 'imgs/shape.png', alt: 'Shape' },
+  { text: 'iPhone App Development', image: 'imgs/block.png', alt: 'Block' },
+  { text: 'iWatch App Development', image: 'imgs/wallet.png', alt: 'Wallet' },
+  { text: 'Video/Audio iOS App', image: 'imgs/play_block.png', alt: 'Play' },
+  { text: 'Automobile Application ', image: 'imgs/colored_ball.png', alt: 'Ball' },
+  { text: 'Real-time e-Commerce Application Development', image: 'imgs/curved_board.png', alt: 'Curving' },
+  { text: 'Travel & Hospitality Application Development', image: 'imgs/rocket.png', alt: 'Rocket' },
 ]
 </script>
 
@@ -26,7 +26,7 @@ const services = [
     <HeaderPart
       heading='BUILDING INNOVATIVE TECHNOLOGIES WITH CONVRTX'
       circle-color='rgba(56, 52, 245, 0.18)'
-      image-path='src/assets/imgs/dashboard.png'
+      image-path='imgs/dashboard.png'
       alt='Dashboard'
     />
 
@@ -34,7 +34,7 @@ const services = [
       <h2 class='template-heading mb-5'>Technologies Development with ConvrtX</h2>
       <p>ConvrtX’sservices are assorted with a wide variety of offerings which include the likes of app development, website development, AR, and VR. Do you know why the essence of this development sector stands out? It’smainly due to our team’sdrive for excellence aboveall. There is no popular sector of this technological industry that has not been explored by us. Our standardized approach to innovation can help take yourtechnological venture to another level.</p>
       <div class='relative py-16'>
-        <img class='mx-auto' src='../assets/illustrations/curves_illustration.png' alt='Curve'>
+        <img class='mx-auto' src='../../public/illustrations/curves_illustration.png' alt='Curve'>
       </div>
       <p>You must be wondering about the prospects offered by our services.You won’t have to fret over the matter because not only are our services optimized to keep up with the changing trends, but they are also subject to precision quality. ConvrtX is well aware that we can’t sell the same service for different futuristic technologies, but what we can do is keep up with our advanced service offerings and update our development team according to your custom projects.</p>
       <button type='button' class='uppercase mt-16'>BOOK A MEETING</button>
@@ -45,7 +45,7 @@ const services = [
       <div class='grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-0 pt-10'>
         <p>We work towards establishing a well-defined amalgamation of our resources with your ideas. You will not only be able to rely on us to be proficient with our efforts but will also have a sense of confidence in our abilities. The services we provide are well aligned for each technological sector of your offering. Our teamwill help gather your confidence when it comes to their services which in turn will give you peace of mind with knowingyour project is in good hands.</p>
         <div>
-          <image-with-circle image-path='src/assets/imgs/hexagon.png' alt='Hexagon' circle-color='rgba(85, 117, 232, 0.18)' />
+          <image-with-circle image-path='imgs/hexagon.png' alt='Hexagon' circle-color='rgba(85, 117, 232, 0.18)' />
         </div>
       </div>
     </section>
@@ -77,8 +77,8 @@ const services = [
 
         </div>
         <div>
-          <image-with-circle class='mb-20 md:mb-36' image-path='src/assets/imgs/hexagon.png' alt='Hexagon' circle-color='rgba(89, 86, 233, .3)' />
-          <image-with-circle image-path='src/assets/imgs/tablet.png' alt='Tablet' circle-color='#D5DDFB' />
+          <image-with-circle class='mb-20 md:mb-36' image-path='imgs/hexagon.png' alt='Hexagon' circle-color='rgba(89, 86, 233, .3)' />
+          <image-with-circle image-path='imgs/tablet.png' alt='Tablet' circle-color='#D5DDFB' />
         </div>
       </div>
     </section>
@@ -95,7 +95,7 @@ const services = [
             We can discuss further your requirements and see if we have it in us to live up to your expectations.</p>
         </div>
         <div>
-          <image-with-circle image-path='src/assets/illustrations/3d_character.png' alt='3D Character' circle-color='rgba(85, 117, 232, 0.18)' />
+          <image-with-circle image-path='illustrations/3d_character.png' alt='3D Character' circle-color='rgba(85, 117, 232, 0.18)' />
         </div>
       </div>
     </section>

@@ -6,14 +6,14 @@
         <p class='mb-5'>DDtech is an resourceful software development agency that transforms a dream by developing,
           and catalysing growth.</p>
         <div class='flex gap-10'>
-          <div><img src='../assets/svgs/upwork_icon.svg' alt='Upwork'></div>
-          <div><img src='../assets/svgs/dribbble_icon.svg' alt='Dribble'></div>
-          <div><img src='../assets/svgs/clutch_icon.svg' alt='Clutch'></div>
+          <div><img src='../../public/svgs/upwork_icon.svg' alt='Upwork'></div>
+          <div><img src='../../public/svgs/dribbble_icon.svg' alt='Dribble'></div>
+          <div><img src='../../public/svgs/clutch_icon.svg' alt='Clutch'></div>
         </div>
       </div>
       <div class='right-column z-[11] relative pt-10 lg:pt-0'>
         <div class='header-container'>
-          <img class='m-auto' src='../assets/imgs/header_illustrations.png' alt='Illustrations'>
+          <img class='m-auto' src='../../public/imgs/header_illustrations.png' alt='Illustrations'>
         </div>
       </div>
     </div>

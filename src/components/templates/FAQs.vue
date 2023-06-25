@@ -1,5 +1,5 @@
 <template>
-  <div class='bg-navy relative bg-no-repeat bg-cover px-3 sm:px-10 lg:px-20 py-32 my-16 lg:my-20' style='background-image: url(src/assets/illustrations/faq_bg.png)'>
+  <div class='bg-navy relative bg-no-repeat bg-cover px-3 sm:px-10 lg:px-20 py-32 my-16 lg:my-20' style='background-image: url(../../../public/illustrations/faq_bg.png)'>
     <h3 class='template-heading text-center !text-white w-6/12 mx-auto'>Frequently Asked Questions</h3>
 
     <div class='faq-queries grid grid-cols-1 lg:grid-cols-2 gap-8 mt-10'>
@@ -9,8 +9,8 @@
       </div>
     </div>
 
-    <img class='absolute -top-[4%] sm:-top-[7%] -left-[2%] w-7/12 sm:w-auto' src='@/assets/illustrations/yellow_3D_ball.png' alt='Yellow 3D Ball'>
-    <img class='absolute -bottom-[30%] right-0' src='@/assets/illustrations/pink_boxes.png' alt='Pink 3D Boxes'>
+    <img class='absolute -top-[4%] sm:-top-[7%] -left-[2%] w-7/12 sm:w-auto' src='illustrations/yellow_3D_ball.png' alt='Yellow 3D Ball'>
+    <img class='absolute -bottom-[30%] right-0' src='illustrations/pink_boxes.png' alt='Pink 3D Boxes'>
   </div>
 </template>
 

@@ -7,7 +7,7 @@ import SectionIndicator from './global/SectionIndicator.vue'
     <div class='container mx-auto relative section-content px-0'>
       <div class='grid grid-cols-1 lg:grid-cols-2 lg:gap-10 xl:gap-20 h-full relative'>
         <div class='order-2 lg:order-1 flex items-end justify-end pb-5 px-3 sm:px-10 z-[111]'>
-          <img class='-mb-10' src='../assets/illustrations/3d_character.png' alt='3D Character'>
+          <img class='-mb-10' src='../../public/illustrations/3d_character.png' alt='3D Character'>
         </div>
         <div class='order-1 lg:order-2 px-3 sm:px-10 lg:pl-0 lg:pr-28 z-[111]'>
           <h1 class='styled-heading mb-6 sm:mb-10'>DDtech is your <span style='background: #48BDFF;'>Partner</span></h1>
@@ -21,7 +21,7 @@ import SectionIndicator from './global/SectionIndicator.vue'
           </div>
         </div>
 
-        <img class='section-bg-circle w-9/12 sm:w-5/12 lg:w-2/6' src='../assets/svgs/header_yellow_bg.svg' alt='Yellow Half Circle'>
+        <img class='section-bg-circle w-9/12 sm:w-5/12 lg:w-2/6' src='../../public/svgs/header_yellow_bg.svg' alt='Yellow Half Circle'>
       </div>
       <SectionIndicator :index='3' section-name='Partner' />
     </div>

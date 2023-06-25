@@ -4,12 +4,12 @@ import SectionIndicator from './global/SectionIndicator.vue'
 
 <template>
   <section class='container mx-auto relative px-3 sm:px-10 lg:px-20 mb-[130px]'>
-    <img class='bg-curve' src='../assets/illustrations/curves_illustration.png' alt='Bg Curve'>
+    <img class='bg-curve' src='../../public/illustrations/curves_illustration.png' alt='Bg Curve'>
     <div>
       <h1 class='styled-heading text-center mb-28 sm:mb-40'>DDtech is <span style='background: #92AAFF;'>Consistent</span></h1>
       <div class='grid grid-cols-1 lg:grid-cols-2 gap-20 h-full relative'>
         <div class='flex items-end justify-end relative'>
-          <div class='z-[11]'><img src='../assets/illustrations/rocket.png' alt='Rocket'></div>
+          <div class='z-[11]'><img src='../../public/illustrations/rocket.png' alt='Rocket'></div>
           <div class='image-bg-circle'></div>
         </div>
         <div class='flex items-center z-[111]'>

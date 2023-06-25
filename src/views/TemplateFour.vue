@@ -14,7 +14,7 @@ import ContactForm from '../components/templates/ContactForm.vue'
     <HeaderPart
       heading="Learn How To Scale Your Company At ConvrtX's Startup Bootcamp"
       circle-color='rgba(195, 126, 176, .3)'
-      image-path='src/assets/illustrations/saly_girl.png'
+      image-path='illustrations/saly_girl.png'
       alt='Girl'
     />
 
@@ -23,8 +23,8 @@ import ContactForm from '../components/templates/ContactForm.vue'
       <p>ConvrtX's Startup Bootcamp is a training program designed to help entrepreneurs who want their businesses. The boot camp will cover everything from pitching, communicating with investors and customers, and scaling your company so that you can make it as profitable as possible.</p>
       <p class='pt-8'>ConvrtX provides the ideal chance for those who want to start their own business by giving them all the tools they need to thrive in today's competitive market.</p>
       <div class='relative pt-14 pb-28 sm:py-16'>
-        <img class='absolute left-1/2 transform -translate-x-1/2 w-7/12 sm:w-auto' src='../assets/illustrations/dart_board.png' alt='Dart Board'>
-        <img class='mx-auto' src='../assets/illustrations/curves_illustration.png' alt='Curve'>
+        <img class='absolute left-1/2 transform -translate-x-1/2 w-7/12 sm:w-auto' src='../../public/illustrations/dart_board.png' alt='Dart Board'>
+        <img class='mx-auto' src='../../public/illustrations/curves_illustration.png' alt='Curve'>
       </div>
       <p>We know there are a lot of folks who want to work in the startup sector but don't know where to start. That's why we offer Startup Bootcamp: a program designed for beginners and experts alike where you'll have access to industry leaders in your field as well as tips from seasoned entrepreneurs like yourself!</p>
 
@@ -57,7 +57,7 @@ import ContactForm from '../components/templates/ContactForm.vue'
           <p class='pt-8'>We take pleasure in offering a wide range of programs to assist you in achieving your goals. From our in-house coaching and education team to Demo Day that celebrates all your hard work, we've got you covered.We have the resources for every need: expert guidance with industry professionals or opportunities like pitch decks where everyone can see your progress firsthand!</p>
         </div>
         <div>
-          <image-with-circle image-path='src/assets/illustrations/old_man.png' alt='Hexagon' circle-color='rgba(85, 117, 232, 0.18)' />
+          <image-with-circle image-path='illustrations/old_man.png' alt='Hexagon' circle-color='rgba(85, 117, 232, 0.18)' />
         </div>
       </div>
     </section>
@@ -67,7 +67,7 @@ import ContactForm from '../components/templates/ContactForm.vue'
       <p class='text-center pt-10'>Startups need help with everything from product development to introductions. That's why our mentors are here, ready and eager to give you the guidance that will take your company skyrocketing in no time! Our system is set up to match you with lead mentors, who will work directly with you on all elements of your company growth. We make it easy for you by giving expert advice when needed and offering you helpful information that will aid your startup. So start exploring what ConvrtX has available today-we bet there's something perfect waiting just for YOU!</p>
       <div class='grid grid-cols-1 lg:grid-cols-2 items-center gap-16 lg:gap-0 pt-10'>
         <div>
-          <image-with-circle class='!ml-0' image-path='src/assets/illustrations/star.png' alt='Star' circle-color='rgba(116, 101, 236, .3)' />
+          <image-with-circle class='lg:!ml-0' image-path='illustrations/star.png' alt='Star' circle-color='rgba(116, 101, 236, .3)' />
         </div>
         <p>You'll be joining an exciting, collaborative team as we work to power the future of startups and entrepreneurship. You'll get unparalleled access and mentorship so that you can take your idea for a new product or service through to execution. We want you on board because if there's one thing that everyone in this company knows how to do -and it is to make things happen</p>
       </div>
@@ -78,9 +78,9 @@ import ContactForm from '../components/templates/ContactForm.vue'
       <p>Our Bootcamp program is a perfect opportunity to get started on your business idea without any pre-existing experience. Participants receive top support and access to experts in the industry, giving you all of the necessary resources needed for success! Not only do participants have 24/7 help from mentors, but they also gain firsthand knowledge by being able to learn directly from engineers who are currently working at successful startups. We offer mentoring, training, and a place where people can learn from each other to achieve success in starting or expanding their businesses.</p>
       <p class='pt-8'>ConvrtX provides the ideal chance for those who want to start their own business by giving them all the tools they need to thrive in today's competitive market.</p>
       <div class='relative pt-14 pb-28 sm:py-16'>
-        <img class='absolute left-[37%] top-20 transform -translate-x-1/2 w-7/12 sm:w-auto' src='../assets/illustrations/purple_board.png' alt='Purple Board'>
-        <img class='absolute left-1/2 transform -translate-x-1/2 w-7/12 sm:w-auto' src='../assets/illustrations/girl_2.png' alt='Girl 2'>
-        <img class='mx-auto' src='../assets/illustrations/curves_illustration.png' alt='Curve'>
+        <img class='absolute left-[37%] top-20 transform -translate-x-1/2 w-7/12 sm:w-auto' src='../../public/illustrations/purple_board.png' alt='Purple Board'>
+        <img class='absolute left-1/2 transform -translate-x-1/2 w-7/12 sm:w-auto' src='../../public/illustrations/girl_2.png' alt='Girl 2'>
+        <img class='mx-auto' src='../../public/illustrations/curves_illustration.png' alt='Curve'>
       </div>
       <p class='pt-10 sm:pt-20'>ConvrtX Startup BootCamp has everything you need if your goal isto become an entrepreneur! We also train you in marketing strategies or finance basics -plus, there's always someone around at ConvrtX willing to answer more of those tricky entrepreneurial questions when they come up.</p>
     </section>

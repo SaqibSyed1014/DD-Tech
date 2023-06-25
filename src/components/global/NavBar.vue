@@ -3,7 +3,7 @@
     <nav>
       <div class='flex pt-6 relative px-0 lg:px-10 lg:py-5 z-[11] flex-wrap items-center justify-between mx-auto'>
         <a class='flex items-center'>
-          <img src='../../assets/imgs/logo.png' class='h-8 mr-3' alt='logo' />
+          <img src='../../../public/imgs/logo.png' class='h-8 mr-3' alt='logo' />
         </a>
         <div class='hidden lg:flex lg:order-2'>
           <button class='md-btn uppercase' type='button'>
@@ -49,7 +49,7 @@
       </Teleport>
 
     </nav>
-    <img v-if='props.showBGCurve' class='header-bg-curve z-1 w-6/12 sm:w-5/12 md:w-6/12' src='../../assets/svgs/header_yellow_bg.svg' alt='yellow-bg'>
+    <img v-if='props.showBGCurve' class='header-bg-curve z-1 w-6/12 sm:w-5/12 md:w-6/12' src='../../../public/svgs/header_yellow_bg.svg' alt='yellow-bg'>
   </div>
 </template>
 

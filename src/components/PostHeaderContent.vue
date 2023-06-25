@@ -16,16 +16,16 @@ import SectionIndicator from './global/SectionIndicator.vue'
       </div>
       <div class='right-column pt-10 lg:pt-0'>
         <div class='header-container'>
-          <img class='m-auto' src='../assets/imgs/post_header_illustration.png' alt='Illustrations'>
+          <img class='m-auto' src='../../public/imgs/post_header_illustration.png' alt='Illustrations'>
         </div>
       </div>
     </div>
-    <img class='red-ball' src='../assets/illustrations/red_ball.png' alt='Red'>
-    <img class='green-ball' src='../assets/illustrations/green_ball.png' alt='Green'>
-    <img class='yellow-ball' src='../assets/illustrations/yellow_ball.png' alt='Yellow'>
-    <img class='blue-ball' src='../assets/illustrations/blue_ball.png' alt='Blue'>
+    <img class='red-ball' src='../../public/illustrations/red_ball.png' alt='Red'>
+    <img class='green-ball' src='../../public/illustrations/green_ball.png' alt='Green'>
+    <img class='yellow-ball' src='../../public/illustrations/yellow_ball.png' alt='Yellow'>
+    <img class='blue-ball' src='../../public/illustrations/blue_ball.png' alt='Blue'>
     <div class='absolute top-10 right-20 z-[1]'>
-      <img src='../assets/illustrations/curves_illustration.png' alt='illustration'>
+      <img src='../../public/illustrations/curves_illustration.png' alt='illustration'>
     </div>
 
     <SectionIndicator :index='2' section-name='Instigator' />
