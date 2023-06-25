@@ -20,10 +20,7 @@ const props = defineProps({
   }
 })
 
-const getImagePath = computed(() => {
-  console.log('paths ', import.meta.env.BASE_URL, props.imagePath)
-  return import.meta.env.BASE_URL + props.imagePath
-})
+const getImagePath = computed(() => import.meta.env.BASE_URL + props.imagePath)
 </script>
 
 <style lang='scss' scoped>
