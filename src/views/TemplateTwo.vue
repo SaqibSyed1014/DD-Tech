@@ -5,6 +5,7 @@ import ImageWithCircle from '../components/global/ImageWithCircle.vue'
 import Banner from '../components/templates/Banner.vue'
 import Footer from '../components/templates/Footer.vue'
 import FAQS from '../components/templates/FAQs.vue'
+import ContactForm from '../components/templates/ContactForm.vue'
 
 const services = [
   { text: 'Music Application Development', image: 'src/assets/imgs/glossy.png', alt: 'Speaker' },
@@ -106,6 +107,8 @@ const services = [
     </section>
 
     <FAQS />
+
+    <ContactForm />
 
     <Banner />
 

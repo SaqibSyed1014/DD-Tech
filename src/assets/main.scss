@@ -127,3 +127,24 @@ section{
   color: #0C0906;
   font-size: 2.5rem;
 }
+label{
+  color: #27272E;
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  display: block;
+}
+input, textarea{
+  width: 100%;
+  padding: 24px 30px;
+  border-radius: 16px;
+  border: 1px solid #E3E6E9;
+  display: block;
+  &:focus{
+    outline: none;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  &::placeholder{
+    color: #999FAE;
+  }
+}
