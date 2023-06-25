@@ -24,7 +24,7 @@ const services = [
   <div class='site-frame template template-two container mx-auto'>
     <NavBar />
     <HeaderPart
-      heading='BUILDING INNOVATIVE TECHNOLOGIES WITH CONVRTX'
+      heading='BUILDING mnm INNOVATIVE TECHNOLOGIES WITH CONVRTX'
       circle-color='rgba(56, 52, 245, 0.18)'
       image-path='../public/imgs/dashboard.png'
       alt='Dashboard'
