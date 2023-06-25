@@ -26,7 +26,7 @@ const services = [
     <HeaderPart
       heading='BUILDING INNOVATIVE TECHNOLOGIES WITH CONVRTX'
       circle-color='rgba(56, 52, 245, 0.18)'
-      image-path='@/assets/imgs/dashboard.png'
+      image-path='../public/imgs/dashboard.png'
       alt='Dashboard'
     />
 
@@ -45,7 +45,7 @@ const services = [
       <div class='grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-0 pt-10'>
         <p>We work towards establishing a well-defined amalgamation of our resources with your ideas. You will not only be able to rely on us to be proficient with our efforts but will also have a sense of confidence in our abilities. The services we provide are well aligned for each technological sector of your offering. Our teamwill help gather your confidence when it comes to their services which in turn will give you peace of mind with knowingyour project is in good hands.</p>
         <div>
-          <image-with-circle :image-path='require("imgs/hexagon.png")' alt='Hexagon' circle-color='rgba(85, 117, 232, 0.18)' />
+          <image-with-circle image-path='../../public/imgs/hexagon.png' alt='Hexagon' circle-color='rgba(85, 117, 232, 0.18)' />
         </div>
       </div>
     </section>
@@ -77,8 +77,8 @@ const services = [
 
         </div>
         <div>
-          <image-with-circle class='mb-20 md:mb-36' image-path='imgs/hexagon.png' alt='Hexagon' circle-color='rgba(89, 86, 233, .3)' />
-          <image-with-circle :image-path='require("imgs/tablet.png")' alt='Tablet' circle-color='#D5DDFB' />
+          <image-with-circle class='mb-20 md:mb-36' image-path='../../public/imgs/hexagon.png' alt='Hexagon' circle-color='rgba(89, 86, 233, .3)' />
+          <image-with-circle image-path='imgs/tablet.png' alt='Tablet' circle-color='#D5DDFB' />
         </div>
       </div>
     </section>
