@@ -9,8 +9,8 @@
       </div>
     </div>
 
-    <img class='absolute -top-[4%] sm:-top-[7%] -left-[2%] w-7/12 sm:w-auto' src='illustrations/yellow_3D_ball.png' alt='Yellow 3D Ball'>
-    <img class='absolute -bottom-[30%] right-0' src='illustrations/pink_boxes.png' alt='Pink 3D Boxes'>
+    <img class='absolute -top-[4%] sm:-top-[7%] -left-[2%] w-7/12 sm:w-auto' src='../../../public/illustrations/yellow_3D_ball.png' alt='Yellow 3D Ball'>
+    <img class='absolute -bottom-[30%] right-0' src='../../../public/illustrations/pink_boxes.png' alt='Pink 3D Boxes'>
   </div>
 </template>
 

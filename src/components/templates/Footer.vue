@@ -2,7 +2,7 @@
   <footer class='px-3 py-10 sm:px-10 lg:px-20'>
     <div class='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-16 lg:gap-0'>
       <div class='col-lg-2'>
-        <img src='imgs/logo.png' class='h-8 mr-3' alt='logo' />
+        <img src='../../../public/imgs/logo.png' class='h-8 mr-3' alt='logo' />
         <div class='pt-8'>2021 © ConvrtX</div>
       </div>
       <div class='col-lg-2'>
