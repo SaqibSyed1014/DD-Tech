@@ -5,7 +5,7 @@
         <h1 class='template-heading'>{{ props.heading }}</h1>
       </div>
       <div>
-        <image-with-circle :circle-color='props.circleColor' :image-path='props.imagePath' :alt='props.alt' />
+        <image-with-circle :circle-color='props.circleColor' :image-path='require(props.imagePath)' :alt='props.alt' />
       </div>
     </div>
   </header>
