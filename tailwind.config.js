@@ -9,7 +9,8 @@ module.exports = {
       'primary': '#5575E8',
       'white': '#FFFFFF',
       'navy': '#232340',
-      'pink': '#FAB8C4'
+      'pink': '#FAB8C4',
+      'green': '#449F89',
     },
     extend: {},
   },
