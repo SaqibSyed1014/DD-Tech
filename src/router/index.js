@@ -28,6 +28,11 @@ const router = createRouter({
       path: '/template-five',
       name: 'template-five',
       component: () => import('../views/TemplateFive.vue')
+    },
+    {
+      path: '/template-six',
+      name: 'template-six',
+      component: () => import('../views/TemplateSix.vue')
     }
   ]
 })
