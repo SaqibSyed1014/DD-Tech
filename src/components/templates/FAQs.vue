@@ -1,6 +1,6 @@
 <template>
   <div class='bg-navy relative bg-no-repeat bg-cover px-3 sm:px-10 lg:px-20 py-32 my-16 lg:my-20' style='background-image: url(illustrations/faq_bg.png)'>
-    <h3 class='template-heading text-center !text-white w-6/12 mx-auto'>Frequently Asked Questions</h3>
+    <h3 class='template-heading text-center !text-white w-9/12 sm:w-6/12 mx-auto'>Frequently Asked Questions</h3>
 
     <div class='faq-queries grid grid-cols-1 lg:grid-cols-2 gap-8 mt-10'>
       <div v-for='(faq, index) in faqList' :key='index' class='faq relative bg-white p-8'>
