@@ -11,8 +11,13 @@ module.exports = {
       'navy': '#232340',
       'pink': '#FAB8C4',
       'green': '#449F89',
+      'skin': '#FFB992'
     },
-    extend: {},
+    extend: {
+      borderRadius: {
+        '40': '40px'
+      },
+    },
   },
   plugins: [],
 }

@@ -19,7 +19,7 @@ import Footer from '../components/templates/Footer.vue'
       alt='Boy With Rocket'
     />
 
-    <div class='relative bg-navy text-white text-center rounded-xl md:rounded-[40px] mt-14 lg:mt-16 mx-3 sm:mx-10 lg:mx-20 py-16 px-5 md:px-14'>
+    <div class='relative bg-navy text-white text-center rounded-xl md:rounded-curve mt-14 lg:mt-16 mx-3 sm:mx-10 lg:mx-20 py-16 px-5 md:px-14'>
       <h2 class='template-heading !text-white mb-10 sm:mb-16 relative z-[11]'>Artificial Intelligence &Machine Learning Development Services</h2>
       <p class='pb-8'>AI is a game-changer for businesses around the world. But will it be a game-changer for you? That’s what ConvrtX will help you find out. We have worked with both top companies and startups to find data-driven solutions to their business challenges. Our AI and ML development services will help you break new ground in everything from software to marketing campaigns. We provide an excellent return on investment, make better decisions, ensure customer satisfaction, and speed up the process with unique automated workflows.</p>
 
@@ -74,6 +74,31 @@ import Footer from '../components/templates/Footer.vue'
       </div>
     </section>
 
+    <div class='skin-section relative bg-skin mb-80 sm:mb-96 px-3 sm:px-6 py-14 md:p-16 text-center'>
+      <div class='w-auto lg:w-10/12 mx-auto'>
+        <h2 class='template-heading !text-primary mb-5 md:mb-14'>Lead the Way with AI and ML Development Services <span
+        class='text-white'>by ConvrtX</span></h2>
+
+        <p>ConvrtX’s AI and ML services will give you the competitive edge you need to become a market leader. We want to help you minimize time, effort, and costs while maximizing revenue. The breakthrough results we will help you achieve will help drive the operational growth of your business. Not only will you be at par with the industry leaders, but you will have the potential to become one yourself.</p>
+
+        <p class='py-5 md:py-8'>Predictive systems contribute significantly to delivering personalized experiences to customers. These systems organize your jungle of data and help extract valuable insights. Therefore, AI/ML leads the way for technological innovation and joining forces with ConvrtX’s services will bring you a step closer to your target.</p>
+
+        <p>ConvrtX implements future-based solutions and excels at them. Our AI and ML development services will skyrocket the growth of your business and establish authority. We manage to do this by providing you with complex yet beneficial algorithms that are custom designed to fit your specific business model. </p>
+
+        <img class='absolute bottom-28 right-20 opacity-30 transform scale-110' src='/illustrations/curves_illustration.png' alt='Background Curve'>
+
+        <div class='bottom-list relative z-[11] bg-white rounded-xl md:rounded-40 text-left mt-10 -mb-56 sm:-mb-64 px-8 sm:px-20 py-24 sm:py-40' style='box-shadow: 0 24px 94px 30px rgba(97, 53, 122, 0.10);'>
+          <ul class='w-auto lg:w-8/12 mx-auto'>
+            <li>Personalized solutions to meet unique business needs</li>
+            <li>Expertise to handle complex problems</li>
+            <li>Complete transparency throughout the project</li>
+            <li>Catering to a variety of industrial sectors</li>
+          </ul>
+        </div>
+        <img class='hidden lg:block absolute -left-16 -bottom-[40%] transform scale-75 z-[111]' src='/imgs/hand.png' alt='Hand'>
+      </div>
+    </div>
+
     <FAQS />
 
     <ContactForm />
@@ -84,6 +109,19 @@ import Footer from '../components/templates/Footer.vue'
   </div>
 </template>
 
-<style scoped>
-
+<style lang='scss' scoped>
+.skin-section{
+  .bottom-list{
+    &::after{
+      content: '';
+      width: 5.75rem;
+      height: 5.75rem;
+      position: absolute;
+      top: -1.5rem;
+      right: -1.5rem;
+      background: #DEEBF2;
+      border-radius: 50%;
+    }
+  }
+}
 </style>
