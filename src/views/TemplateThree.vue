@@ -25,11 +25,11 @@ import Footer from '../components/templates/Footer.vue'
 
       <p>AI has penetrated almost every corner of the business sphere. Its applications are relevant to many industries like healthcare, finance, education, blockchain, gaming, SaaS, and more. Whichever industry you belong to, ConvrtX’s expertise in AI will help you improve your business outcomes.</p>
 
-      <img class='pt-14 pb-10 pl-32' src='illustrations/golden_3D_ball.png' alt='Golden 3D Ball'>
+      <img class='pt-14 pb-10 pl-32' src='/illustrations/golden_3D_ball.png' alt='Golden 3D Ball'>
 
       <div class='absolute -top-[2%] sm:-top-[3%] right-10 sm:right-20 rounded-full bg-[#D8D8D8] w-[2.7rem] h-[2.7rem]'></div>
 
-      <img class='absolute top-24 left-14 z-[1]' src='illustrations/red_ball.png' alt='Red 3D Ball'>
+      <img class='absolute top-24 left-14 z-[1]' src='/illustrations/red_ball.png' alt='Red 3D Ball'>
       <div class='absolute bottom-32 left-8 sm:left-14 rounded-full bg-white w-8 h-8'></div>
       <div class='absolute bottom-[18%] sm:bottom-[28%] left-16 sm:left-24 rounded-full bg-white w-[4.5rem] h-[4.5rem] opacity-50'></div>
       <div class='absolute bottom-[25%] right-14 rounded-full bg-[#686868] w-[8.7rem] h-[8.7rem] opacity-50'></div>
@@ -52,7 +52,7 @@ import Footer from '../components/templates/Footer.vue'
           </ul>
         </div>
         <div>
-          <img class='mx-auto' src='characters/uncle_with_laptop.png' alt='Uncle With Laptop'>
+          <img class='mx-auto' src='/characters/uncle_with_laptop.png' alt='Uncle With Laptop'>
         </div>
       </div>
     </section>
