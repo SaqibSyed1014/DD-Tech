@@ -2,6 +2,7 @@
 import NavBar from '../components/global/NavBar.vue'
 import HeaderPart from '../components/templates/HeaderPart.vue'
 import ImageWithCircle from '../components/global/ImageWithCircle.vue'
+import FloatingCard from '../components/templates/FloatingCard.vue'
 import FAQS from '../components/templates/FAQs.vue'
 import ContactForm from '../components/templates/ContactForm.vue'
 import Banner from '../components/templates/Banner.vue'
@@ -18,6 +19,20 @@ import Footer from '../components/templates/Footer.vue'
       image-path=''
       alt=''
     />
+
+    <div class='relative bg-primary text-white text-center mx-3 my-20 sm:mx-10 lg:mx-20 px-3 sm:px-10 lg:px-20 py-10'>
+      <h2 class='template-heading w-11/12 mx-auto !text-white text-center mb-5'>Create A Digital Space That Helps Cushion Your Business</h2>
+      <p>ConvrtX offers custom software development services that can help transform your brilliant ideas into substantial profit. We are Mississauga, Canada's leading supplier of custom software development services. ConvrtX offers you everything from cutting-edge technology to automated business quality testing while also helping you maintain your project's technological prowess.</p>
+
+      <p class='py-8'>Don't you want your project to discover the modern world's new landscapes? Then, why not get started right away on this new adventure with ConvrtX. We are known for delivering the most cost-effective software solutions in Mississauga. Our product development team comprises highly trained programmers, seasoned engineers, and quality assurance specialists. Moreover, we ensure that the customized tech solutions that we engineer for your business are tailored to your specific requirements.</p>
+
+      <p>Our optimized services for software development provide on-the-spot consultation and assistance to help you achieve your market goals in today's competitive environment. ConvrtX's squad of professionals is just a phone call away. So, please contact us now to start working on achieving your innovative project goals while also giving your software more power and value.</p>
+
+      <img class='absolute -top-3 -left-3' src='/illustrations/3D_pink_balls.png' alt='3D Pink Balls'>
+      <img class='absolute -top-6 -right-5' src='/illustrations/white_balls_group.png' alt='White Ball Group'>
+      <img class='absolute transform rotate-180 -bottom-3 -right-3' src='/illustrations/3D_pink_balls.png' alt='3D Pink Balls'>
+      <img class='absolute transform rotate-180 -bottom-6 -left-5' src='/illustrations/white_balls_group.png' alt='White Ball Group'>
+    </div>
 
     <div class='relative bg-navy text-white mt-14 lg:mt-16 pt-48 md:pt-60 lg:pt-16 pb-72 md:pb-96 lg:pb-32 px-6 lg:px-28'>
       <h2 class='template-heading !text-white mb-10 sm:mb-16 relative z-[11]'>Turn Your Dreams Into Realities</h2>
@@ -64,6 +79,45 @@ import Footer from '../components/templates/Footer.vue'
         </div>
       </div>
     </section>
+
+    <div class='py-10 md:py-20'>
+      <h2 class='template-heading text-center mb-20 md:mb-10'>Management Advisory Services</h2>
+
+      <FloatingCard
+        :card-number='1'
+        card-color='#F0BE5A'
+        text='We at ConvrtX specialize in assisting corporations in completing strategic initiative projects on schedule. Our team draws on years of industry expertise and tried-and-true processes to create bespoke execution plans for each client based on their specific needs.'
+      >
+        <div>
+          <img class='relative -top-3' src='/imgs/phone.png' alt='Phone'>
+          <img class='absolute -top-5 -right-5' src='/illustrations/golden_3D_sharp.png' alt='Golden Ball'>
+        </div>
+      </FloatingCard>
+
+      <FloatingCard
+        :card-number='2'
+        card-color='#F1B2CC'
+        card-position='right'
+        text="By increasing skill and capacity, our team operates as an extension of the client's team. As a result, we provide project consultancy and complete end-to-end solutions that include everything from project planning to manage crucial milestones and risk mitigation."
+      >
+        <div>
+          <img class='relative -top-3' src='/imgs/gears.png' alt='Settings Gears'>
+          <img class='absolute -top-5 -left-12' src='/illustrations/golden_3D_sharp.png' alt='Golden Ball'>
+        </div>
+      </FloatingCard>
+
+      <FloatingCard
+        :card-number='3'
+        card-color='#9A5BFF'
+        text="ConvrtX Uses Your Favorite Tools: We are capable of working with the majority of the contemporary technology available in the market. You've put your faith in us to produce a viable project, and we'll take on the full responsibility for selecting/recommending the best tool stack for your short-and long-term goals."
+      >
+        <div>
+          <img class='relative -top-3' src='/characters/boy_on_ball.png' alt='Boy On Ball'>
+          <img class='absolute -top-4 -right-12' src='/illustrations/blue_3D_ball.png' alt='Blue 3D Ball'>
+          <img class='absolute bottom-8 -left-16 sm:-left-24' src='/illustrations/orange_board.png' alt='Orange Board'>
+        </div>
+      </FloatingCard>
+    </div>
 
     <FAQS />
 
